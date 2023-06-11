@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="328575d9-7cfb-4529-a5de-73fbb00434e0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/config-overrides.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/logo.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/nginx.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/public/favicon.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Finance/FinanceClearance.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Finance/FinanceClearance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Finance/FinancialRecords.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Finance/FinancialRecords.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Finance/Payment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Finance/Payment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Finance/PaymentList.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Finance/PaymentList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Gown/CertificateIssuance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Gown/CertificateIssued.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Gown/ClearedGowns.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Gown/FinePayment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Gown/GownClearance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Gown/GownIssuance.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Gown/GownIssuance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Gown/IssuedGowns.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Gown/Payment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Gown/StudentCleared.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Hod/CoursesList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Hod/DepartmentsList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Hod/GraduationList.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Hod/GraduationList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Home/HomeAdmin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Home/HomeAdmin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Home/backgroundImage.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Librarian/AddBook.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Librarian/AddBook.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Librarian/BookList.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Librarian/BookList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Librarian/IssueBook.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Librarian/IssueBook.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Librarian/LibraryClearance.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Librarian/LibraryClearance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Librarian/LibraryRecords.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Librarian/LibraryRecords.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Registrar/NewStudent.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Registrar/NewStudent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Registrar/StudentList.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Registrar/StudentList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Student/EditName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Student/GownClearanceConfirmation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Student/GownIssuanceConfirmation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Student/IssuedBooks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Student/LibraryRecords.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Student/Reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Student/Student.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Student/StudentFeeBalance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/Student/StudentPayments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/app/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/app/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/common/AppHeader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/common/AppHeader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/common/LoadingIndicator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/common/NotFound.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/common/NotFound.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/common/PrivateRoute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/common/ServerError.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/common/ServerError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/common/logo.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/constants/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/poll/NewPoll.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/poll/NewPoll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/poll/Poll.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/poll/Poll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/poll/PollList.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/poll/PollList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/registerServiceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/user/LibraryRecords.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/user/NewUser/NewUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/user/NewUser/Signup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/user/Users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/user/login/Login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/user/login/Login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/user/profile/Profile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/user/profile/Profile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/user/signup/Signup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/user/signup/Signup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/util/APIUtils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/util/Colors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/util/ConfirmDialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/src/util/Helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clearance-app-cient/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/ClearanceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/ClearanceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/config/AuditingConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/config/AuditingConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/controller/DepartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/controller/FinanceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/controller/FinanceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/controller/GraduationListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/controller/GraduationListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/controller/LibraryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/controller/LibraryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/exception/AppException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/exception/AppException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/exception/BadRequestException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/exception/BadRequestException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/model/RoleName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/model/RoleName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/model/department/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/model/department/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/model/department/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/model/department/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/model/finance/Finance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/model/finance/Finance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/model/finance/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/model/finance/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/model/hod/ClearanceStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/model/hod/ClearanceStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/model/hod/GraduationList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/model/hod/GraduationList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/model/library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/model/library/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/model/library/BookStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/model/library/BookStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/model/library/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/model/library/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/model/records/Gown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/model/records/Gown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/model/student/Confirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/model/student/Confirmation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/model/student/ConfirmationStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/model/student/ConfirmationStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/model/student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/model/student/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/payload/ApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/payload/ApiResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/payload/ConfirmGraduationNameRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/payload/ConfirmGraduationNameRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/payload/FinanceRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/payload/FinanceRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/payload/FinanceResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/payload/FinanceResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/payload/GeneralResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/payload/GeneralResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/payload/GetStudentResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/payload/GetStudentResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/payload/GownConfirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/payload/GownConfirmation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/payload/GownRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/payload/GownRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/payload/GownResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/payload/GownResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/payload/GraduationListResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/payload/GraduationListResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/payload/IssueBookRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/payload/IssueBookRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/payload/IssueBookResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/payload/IssueBookResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/payload/IssuedGownsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/payload/IssuedGownsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/payload/JwtAuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/payload/JwtAuthenticationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/payload/JwtRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/payload/JwtRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/payload/JwtResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/payload/JwtResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/payload/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/payload/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/payload/PaymentRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/payload/PaymentRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/payload/PaymentResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/payload/PaymentResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/payload/SaveStudentRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/payload/SaveStudentRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/payload/SignUpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/payload/SignUpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/payload/UserIdentityAvailability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/payload/UserIdentityAvailability.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/payload/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/payload/UserProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/payload/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/payload/UserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/payload/UserSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/payload/UserSummary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/repository/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/repository/department/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/repository/department/CourseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/repository/department/DepartmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/repository/department/DepartmentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/repository/finance/FinanceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/repository/finance/FinanceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/repository/finance/PaymentsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/repository/finance/PaymentsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/repository/graduation/GraduationListRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/repository/graduation/GraduationListRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/repository/library/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/repository/library/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/repository/library/LibraryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/repository/library/LibraryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/repository/records/GownRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/repository/records/GownRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/repository/student/ConfirmationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/repository/student/ConfirmationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/repository/student/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/repository/student/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/security/CurrentUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/security/CurrentUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/security/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/security/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/security/JwtAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/security/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/security/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/security/JwtTokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/security/JwtTokenProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/security/UserPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/security/UserPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/service/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/service/FinanceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/service/FinanceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/service/GraduationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/service/GraduationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/service/JwtUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/service/JwtUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/service/LibraryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/service/LibraryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetech/clearance/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kabarak/clearance/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zetech/clearance/ClearanceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kabarak/clearance/ClearanceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Clearance.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/polls/payload/JwtAuthenticationResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/ClearanceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/config/AuditingConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/config/SpringSecurityAuditAwareImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/controller/AuthController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/controller/AuthController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/controller/CourseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/controller/DepartmentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/controller/FinanceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/controller/GraduationListController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/controller/LibraryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/controller/StudentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/controller/UserController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/exception/AppException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/exception/BadRequestException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/exception/ResourceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/model/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/model/RoleName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/model/department/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/model/department/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/model/finance/Finance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/model/finance/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/model/hod/ClearanceStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/model/hod/GraduationList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/model/library/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/model/library/BookStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/model/library/Library.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/model/records/Gown.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/model/student/Confirmation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/model/student/ConfirmationStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/model/student/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/payload/ApiResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/payload/ConfirmGraduationNameRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/payload/FinanceRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/payload/FinanceResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/payload/GeneralResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/payload/GetStudentResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/payload/GownConfirmation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/payload/GownRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/payload/GownResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/payload/GraduationListResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/payload/IssueBookRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/payload/IssueBookResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/payload/IssuedGownsResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/payload/JwtRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/payload/JwtResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/payload/LoginRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/payload/PaymentRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/payload/PaymentResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/payload/SaveStudentRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/payload/SignUpRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/payload/UserIdentityAvailability.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/payload/UserProfile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/payload/UserResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/payload/UserSummary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/repository/RoleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/repository/department/CourseRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/repository/department/DepartmentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/repository/finance/FinanceRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/repository/finance/PaymentsRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/repository/graduation/GraduationListRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/repository/library/BookRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/repository/library/LibraryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/repository/records/GownRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/repository/student/ConfirmationRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/repository/student/StudentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/security/CurrentUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/security/CustomUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/security/JwtAuthenticationEntryPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/security/JwtAuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/security/JwtTokenProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/security/UserPrincipal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/service/EmailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/service/FinanceService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/service/GraduationService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/service/GraduationService$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/service/GraduationService$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/service/GraduationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/service/JwtUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/service/LibraryService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/service/LibraryService$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/service/LibraryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetech/clearance/service/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zetech/clearance/ClearanceApplicationTests.class" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2BnEkGtV6Gyjneti9Y765sc5GRe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="last_opened_file_path" value="D:/project/cheruiyot_collins/microservice" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zetech.clearance.payload" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hp pc\Documents\SpringBoot\clearance\src\main\java\com\zetech\clearance\security" />
+      <recent name="C:\Users\hp pc\Documents\SpringBoot\clearance\src\main\java\com\zetech\clearance\config" />
+      <recent name="C:\Users\hp pc\Documents\SpringBoot\clearance\src\main\java\com\zetech\clearance\exception" />
+      <recent name="C:\Users\hp pc\Documents\SpringBoot\clearance\src\main\java\com\zetech\clearance\payload" />
+      <recent name="C:\Users\hp pc\Documents\SpringBoot\clearance\src\main\java\com\example\pesaFix\repository" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ClearanceApplication (1)">
+    <configuration name="ClearanceApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kabarak.clearance.ClearanceApplication" />
+      <module name="Clearance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kabarak.clearance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClearanceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zetech.clearance.ClearanceApplication" />
+      <module name="Clearance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zetech.clearance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PesaFixApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.pesaFix.PesaFixApplication" />
+      <module name="Clearance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.pesaFix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ClearanceApplication (1)" />
+        <item itemvalue="Application.ClearanceApplication" />
+        <item itemvalue="Application.PesaFixApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="328575d9-7cfb-4529-a5de-73fbb00434e0" name="Default Changelist" comment="" />
+      <created>1657533589472</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657533589472</updated>
+    </task>
+    <task id="LOCAL-00001" summary="final">
+      <created>1658905957503</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658905957503</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kabarak/clearance/service/GraduationService.java</url>
+          <line>307</line>
+          <properties class="com.zetech.clearance.service.GraduationService" method="certificateClearance">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kabarak/clearance/service/LibraryService.java</url>
+          <line>144</line>
+          <properties class="com.zetech.clearance.service.LibraryService" method="clearIssuedBooks">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kabarak/clearance/service/LibraryService.java</url>
+          <line>131</line>
+          <properties class="com.zetech.clearance.service.LibraryService" method="listLibraryRecord">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kabarak/clearance/service/LibraryService.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
